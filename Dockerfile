@@ -1,3 +1,3 @@
 FROM tomee
-COPY */.war /usr/local/tomee/webapps
+COPY /target/*.war /usr/local/tomee/webapps
 
