@@ -15,5 +15,3 @@ RUN echo export PATH=$PATH:/opt/java8/bin >> /etc/profile
 ENV JAVA_HOME "/opt/java8"
 ENV PATH "${JAVA_HOME}/bin:${PATH}"
 CMD ["/opt/tomcat8/bin/catalina.sh", "run"]
-
-vasu
